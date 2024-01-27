@@ -1,0 +1,17 @@
+@mixin _typo($name) {
+  .typography-#{$name},
+  .font-size--#{$name} {
+    font-size: var(--hansolbangul-font-size-#{$name});
+    line-height: var(--hansolbangul-line-height-#{$name});
+  }
+}
+
+@include _typo('t1');
+@include _typo('t2');
+@include _typo('t3');
+@include _typo('t4');
+@include _typo('t5');
+@include _typo('t6');
+@include _typo('b1');
+@include _typo('b2');
+@include _typo('b3');

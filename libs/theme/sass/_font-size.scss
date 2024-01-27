@@ -1,0 +1,25 @@
+html {
+  --hansolbangul-font-size-t1: 40px;
+  --hansolbangul-line-height-t1: 52px;
+  --hansolbangul-font-size-t2: 40px;
+  --hansolbangul-line-height-t2: 52px;
+  --hansolbangul-font-size-t3: 24px;
+  --hansolbangul-line-height-t3: 34px;
+  --hansolbangul-font-size-t4: 20px;
+  --hansolbangul-line-height-t4: 28px;
+  --hansolbangul-font-size-t5: 18px;
+  --hansolbangul-line-height-t5: 26px;
+  --hansolbangul-font-size-t6: 16px;
+  --hansolbangul-line-height-t6: 22px;
+  --hansolbangul-font-size-b1: 14px;
+  --hansolbangul-line-height-b1: 20px;
+  --hansolbangul-font-size-b2: 12px;
+  --hansolbangul-line-height-b2: 18px;
+  --hansolbangul-font-size-b3: 10px;
+  --hansolbangul-line-height-b3: 16px;
+}
+
+@mixin font-size($fontType) {
+  font-size: var(--hansolbangul-font-size-#{$fontType});
+  font-size: var(--hansolbangul-font-size-#{$fontType});
+}
